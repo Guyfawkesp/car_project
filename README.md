@@ -124,9 +124,6 @@ Evaluate the model with:
 - MSE (Mean Squared Error)
 - R-squared
 
-## Objective
-The goal is to improve pricing precision, gain insights into factors influencing car prices, and provide data-driven recommendations for better decision-making in the used car market.
-
 ---
 
 ## Model Performance Summary
