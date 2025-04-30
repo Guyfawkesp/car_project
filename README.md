@@ -114,6 +114,7 @@ This dimensionality reduction approach complements our feature importance analys
 Ridge regression, with its L2 regularization, shows similar patterns to standard linear regression but with more balanced feature importance scores.
 
 #### Lasso Regressor: Top 20 Features
+
 ![Lasso Regressor Top Features](images/top20_lasso.png)
 Lasso's L1 regularization tends to produce sparser feature sets, zeroing out less important features while highlighting the most critical pricing factors.
 
