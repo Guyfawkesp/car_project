@@ -108,9 +108,6 @@ By reducing our feature space to 20 principal components, we:
 
 This dimensionality reduction approach complements our feature importance analysis from the different regression models while providing a transformation that captures the essential structure of our data.
 
-#### XGBoost: Top 20 Features
-![XGBoost Top Features](images/top20_xg.png)
-XGBoost's tree-based approach highlights different feature importance patterns, with particularly strong emphasis on year, manufacturer, and condition variables.
 
 #### Ridge Regressor: Top 20 Features
 ![Ridge Regressor Top Features](images/top20_rd.png)
@@ -141,10 +138,5 @@ We compared multiple regression models using **Mean Squared Error (MSE)** and **
 - **`XGBoost_Polynomial_features_best`** delivered the top results:
   - **MSE**: ~31.1 million (lowest)
   - **R² Test**: 0.79 (highest)
-
-### Key Insights
-- **XGBoost** models consistently outperformed others in accuracy and error reduction.
-- **Polynomial features** enhanced prediction, but risked overfitting at higher degrees.
-- **Ridge** and **Lasso** regularization offered minimal improvements in this context.
 
 ---
