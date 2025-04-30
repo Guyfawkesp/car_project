@@ -130,6 +130,7 @@ Evaluate the model with:
 We compared multiple regression models using **Mean Squared Error (MSE)** and **R² Test Scores** to evaluate performance.
 
 ### Best Model
+![Model comparision](images/best.png)
 - **`XGBoost_Polynomial_features_best`** delivered the top results:
   - **MSE**: ~31.1 million (lowest)
   - **R² Test**: 0.79 (highest)
