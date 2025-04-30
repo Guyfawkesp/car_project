@@ -117,9 +117,6 @@ Ridge regression, with its L2 regularization, shows similar patterns to standard
 ![Lasso Regressor Top Features](images/ltop20_lasso.png)
 Lasso's L1 regularization tends to produce sparser feature sets, zeroing out less important features while highlighting the most critical pricing factors.
 
-#### Random Forest Regressor: Top 20 Features
-![Random Forest Top Features](images/top20_rf.png)
-The ensemble-based Random Forest approach identifies key pricing factors through multiple decision paths, with strong emphasis on mileage, year, and specific luxury manufacturers.
 
 ## Model Evaluation
 Evaluate the model with:
